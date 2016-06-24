@@ -1,0 +1,213 @@
+﻿#DivPage {
+    min-height: 100%;
+    position: relative;
+}
+
+
+#divfooter {
+    background-color: #124A7B;
+    color: #FFFFFF;
+    padding-top: 10px;
+    text-align: right;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+
+#wraperHeader {
+    background: #124A7B;
+    height: 100px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+#header {
+    width: 1000px;
+    margin: 0 auto;
+    height: 100px;
+    padding: 10px 0px 10px 0px;
+}
+
+#header-logo {
+    float: left;
+}
+
+#HeaderTitle {
+    float: left;
+    color: #FFFFCC;
+    font-size: 35px;
+    font-family: 'Times New Roman';
+    position: relative;
+    top: 25%;
+}
+
+    #HeaderTitle A, #HeaderTitle A:visited {
+        color: #FFFFCC;
+    }
+
+
+
+
+
+.Bold {
+    font-weight: bold;
+}
+
+#container {
+    /*background-color: #ff0000;*/
+    margin: 0px auto;
+    height: auto;
+    width: 1000px;
+    padding-bottom: 5px;
+}
+
+
+#HeaderMenu {
+    border-bottom: 1px solid #C2CFDF;
+    background: #E8EEF5;
+    color: #1F5080;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.fixMenu {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    min-width: 960px;
+    width: 960px;
+}
+
+.fixWidth {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    min-width: 1000px;
+    width: 1000px;
+    height: 68px;
+}
+
+.navbar {
+    border-radius: 0px;
+    margin-bottom: 0px !important;
+}
+
+
+
+.PageTitle {
+    padding-bottom: 0px;
+}
+
+
+.ui-autocomplete {
+    position: absolute;
+    cursor: default;
+    z-index: 1500 !important;
+}
+
+.StudentIMG {
+    height: 140px;
+    width: 110px;
+}
+
+.CheckXacNhan {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 0px !important;
+}
+
+    .CheckXacNhan label:hover {
+        cursor: pointer !important;
+    }
+
+
+#tblDieuKien thead tr th {
+    background: #FFFFFF !important;
+    color: #333333 !important;
+}
+
+.divDieuKien {
+    color: #333333 !important;
+    font-weight: bold;
+    text-align: justify;
+    padding-top: 5px;
+}
+
+.divDangNhap {
+    padding-top: 10px;
+}
+
+
+
+
+.DivXacNhanDangKy div.dk {
+    color: #333333 !important;
+    font-weight: bold;
+    text-align: justify;
+    padding-top: 5px;
+}
+
+.divXacNhan {
+    border-top: 1px solid #DDDDDD;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+    .divXacNhan label {
+        text-align: justify;
+        color: #428BCA !important;
+    }
+
+        .divXacNhan label:hover {
+            cursor: pointer !important;
+            text-decoration: underline;
+        }
+
+.divButtonDangKy {
+    padding: 5px;
+}
+
+.Notice {
+    color: #FF0000;
+}
+
+.ThongBao {
+    font-size: 13pt;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.divDieuKhoan {
+    padding-left: 30px;
+}
+
+    .divDieuKhoan input[type="checkbox"] {
+        margin-right: 10px !important;
+    }
+
+.form-group label {
+    color: #000000 !important;
+}
+
+.divLogout {
+    text-align: right;
+}
+
+    .divLogout a {
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+
+label:hover {
+    cursor: pointer;
+}

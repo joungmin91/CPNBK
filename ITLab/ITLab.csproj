@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{405772C8-C6AF-4DD0-B379-9C6B94932202}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ITLab</RootNamespace>
+    <AssemblyName>ITLab</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v14.1.Core, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v14.1.Core, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxThemes.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\..\..\..\..\Desktop\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admincp\admincp.aspx" />
+    <Content Include="admincp\cpadminlogin.aspx" />
+    <Content Include="admincp\css\bootstrap-rtl.css" />
+    <Content Include="admincp\css\bootstrap-rtl.min.css" />
+    <Content Include="admincp\css\bootstrap.css" />
+    <Content Include="admincp\css\bootstrap.min.css" />
+    <Content Include="admincp\css\plugins\morris.css" />
+    <Content Include="admincp\css\sb-admin-rtl.css" />
+    <Content Include="admincp\css\sb-admin.css" />
+    <Content Include="admincp\css\style.css" />
+    <Content Include="admincp\DanhMucLop.aspx" />
+    <Content Include="admincp\editphong.aspx" />
+    <Content Include="admincp\font-awesome\css\font-awesome.css" />
+    <Content Include="admincp\font-awesome\css\font-awesome.min.css" />
+    <Content Include="admincp\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="admincp\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="admincp\js\bootstrap.js" />
+    <Content Include="admincp\js\bootstrap.min.js" />
+    <Content Include="admincp\js\index.js" />
+    <Content Include="admincp\js\jquery.js" />
+    <Content Include="admincp\js\plugins\flot\excanvas.min.js" />
+    <Content Include="admincp\js\plugins\flot\flot-data.js" />
+    <Content Include="admincp\js\plugins\flot\jquery.flot.js" />
+    <Content Include="admincp\js\plugins\flot\jquery.flot.pie.js" />
+    <Content Include="admincp\js\plugins\flot\jquery.flot.resize.js" />
+    <Content Include="admincp\js\plugins\flot\jquery.flot.tooltip.min.js" />
+    <Content Include="admincp\js\plugins\morris\morris-data.js" />
+    <Content Include="admincp\js\plugins\morris\morris.js" />
+    <Content Include="admincp\js\plugins\morris\morris.min.js" />
+    <Content Include="admincp\js\plugins\morris\raphael.min.js" />
+    <Content Include="admincp\LichSuSuaChuaLop.aspx" />
+    <Content Include="admincp\taskloaisc.aspx" />
+    <Content Include="admincp\viewdangxulylist.aspx" />
+    <Content Include="admincp\viewdanhsachdk.aspx" />
+    <Content Include="admincp\Viewdanhsachkhongxuly.aspx" />
+    <Content Include="admincp\viewhuydangky.aspx" />
+    <Content Include="admincp\viewxulydangky.aspx" />
+    <Content Include="admincp\viewxulyhoantatlist.aspx" />
+    <Content Include="admincp\viewxulylistdangxl.aspx" />
+    <Content Include="admincp\Xoaloaisuachua.aspx" />
+    <Content Include="css\BlockUI.css" />
+    <Content Include="css\bootstrap-theme.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\Bootstrap_Fix.css" />
+    <Content Include="css\jquery-ui.css" />
+    <Content Include="css\mainstyle.css" />
+    <Content Include="css\msgbox.css" />
+    <Content Include="css\ngoctb.css" />
+    <Content Include="css\reset.css" />
+    <Content Include="css\StylePublic.css" />
+    <Content Include="css\styles.css" />
+    <Content Include="default.js" />
+    <Content Include="Global.asax" />
+    <Content Include="Historyreg.aspx" />
+    <Content Include="huybodangky.aspx" />
+    <Content Include="img\arrow_left.png" />
+    <Content Include="img\CaptchaImage.png" />
+    <Content Include="img\logo.png" />
+    <Content Include="js\BlockUI.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\default.js" />
+    <Content Include="js\fastClick.js" />
+    <Content Include="js\jquery-2.js" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\master.js" />
+    <Content Include="js\msgbox.js" />
+    <Content Include="js\paging.js" />
+    <Content Include="js\System.js" />
+    <Content Include="js\System_002.js" />
+    <Content Include="js\System_003.js" />
+    <Content Include="js\System_004.js" />
+    <Content Include="js\System_005.js" />
+    <Content Include="js\System_006.js" />
+    <Content Include="js\System_007.js" />
+    <Content Include="js\System_008.js" />
+    <Content Include="js\System_009.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="Regthietbi.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Regsuachua.aspx" />
+    <Content Include="Lichsugiaovien.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admincp\admincp.aspx.cs">
+      <DependentUpon>admincp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admincp\admincp.aspx.designer.cs">
+      <DependentUpon>admincp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admincp\cpadminlogin.aspx.cs">
+      <DependentUpon>cpadminlogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admincp\cpadminlogin.aspx.designer.cs">
+      <DependentUpon>cpadminlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admincp\DanhMucLop.aspx.cs">
+      <DependentUpon>DanhMucLop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admincp\DanhMucLop.aspx.designer.cs">
+      <DependentUpon>DanhMucLop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admincp\editphong.aspx.cs">
+      <DependentUpon>editphong.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admincp\editphong.aspx.designer.cs">
+      <DependentUpon>editphong.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admincp\LichSuSuaChuaLop.aspx.cs">
+      <DependentUpon>LichSuSuaChuaLop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admincp\LichSuSuaChuaLop.aspx.designer.cs">
+      <DependentUpon>LichSuSuaChuaLop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admincp\taskloaisc.aspx.cs">
+      <DependentUpon>taskloaisc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admincp\taskloaisc.aspx.designer.cs">
+      <DependentUpon>taskloaisc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admincp\viewdangxulylist.aspx.cs">
+      <DependentUpon>viewdangxulylist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admincp\viewdangxulylist.aspx.designer.cs">
+      <DependentUpon>viewdangxulylist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admincp\viewdanhsachdk.aspx.cs">
+      <DependentUpon>viewdanhsachdk.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admincp\viewdanhsachdk.aspx.designer.cs">
+      <DependentUpon>viewdanhsachdk.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admincp\Viewdanhsachkhongxuly.aspx.cs">
+      <DependentUpon>Viewdanhsachkhongxuly.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admincp\Viewdanhsachkhongxuly.aspx.designer.cs">
+      <DependentUpon>Viewdanhsachkhongxuly.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admincp\viewhuydangky.aspx.cs">
+      <DependentUpon>viewhuydangky.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admincp\viewhuydangky.aspx.designer.cs">
+      <DependentUpon>viewhuydangky.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admincp\viewxulydangky.aspx.cs">
+      <DependentUpon>viewxulydangky.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admincp\viewxulydangky.aspx.designer.cs">
+      <DependentUpon>viewxulydangky.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admincp\viewxulyhoantatlist.aspx.cs">
+      <DependentUpon>viewxulyhoantatlist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admincp\viewxulyhoantatlist.aspx.designer.cs">
+      <DependentUpon>viewxulyhoantatlist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admincp\viewxulylistdangxl.aspx.cs">
+      <DependentUpon>viewxulylistdangxl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admincp\viewxulylistdangxl.aspx.designer.cs">
+      <DependentUpon>viewxulylistdangxl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admincp\Xoaloaisuachua.aspx.cs">
+      <DependentUpon>Xoaloaisuachua.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admincp\Xoaloaisuachua.aspx.designer.cs">
+      <DependentUpon>Xoaloaisuachua.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clsmain.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Historyreg.aspx.cs">
+      <DependentUpon>Historyreg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Historyreg.aspx.designer.cs">
+      <DependentUpon>Historyreg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.Master.cs">
+      <DependentUpon>Home.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.Master.designer.cs">
+      <DependentUpon>Home.Master</DependentUpon>
+    </Compile>
+    <Compile Include="huybodangky.aspx.cs">
+      <DependentUpon>huybodangky.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="huybodangky.aspx.designer.cs">
+      <DependentUpon>huybodangky.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Regthietbi.aspx.cs">
+      <DependentUpon>Regthietbi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Regthietbi.aspx.designer.cs">
+      <DependentUpon>Regthietbi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Regsuachua.aspx.cs">
+      <DependentUpon>Regsuachua.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Regsuachua.aspx.designer.cs">
+      <DependentUpon>Regsuachua.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lichsugiaovien.aspx.cs">
+      <DependentUpon>Lichsugiaovien.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lichsugiaovien.aspx.designer.cs">
+      <DependentUpon>Lichsugiaovien.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Home.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="admincp\font-awesome\fonts\fontawesome-webfont.eot" />
+    <None Include="admincp\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <None Include="admincp\font-awesome\fonts\fontawesome-webfont.woff" />
+    <None Include="admincp\font-awesome\fonts\FontAwesome.otf" />
+    <None Include="admincp\font-awesome\less\bordered-pulled.less" />
+    <None Include="admincp\font-awesome\less\core.less" />
+    <None Include="admincp\font-awesome\less\fixed-width.less" />
+    <None Include="admincp\font-awesome\less\font-awesome.less" />
+    <None Include="admincp\font-awesome\less\icons.less" />
+    <None Include="admincp\font-awesome\less\larger.less" />
+    <None Include="admincp\font-awesome\less\list.less" />
+    <None Include="admincp\font-awesome\less\mixins.less" />
+    <None Include="admincp\font-awesome\less\path.less" />
+    <None Include="admincp\font-awesome\less\rotated-flipped.less" />
+    <None Include="admincp\font-awesome\less\spinning.less" />
+    <None Include="admincp\font-awesome\less\stacked.less" />
+    <None Include="admincp\font-awesome\less\variables.less" />
+    <None Include="admincp\font-awesome\scss\font-awesome.scss" />
+    <None Include="admincp\font-awesome\scss\_bordered-pulled.scss" />
+    <None Include="admincp\font-awesome\scss\_core.scss" />
+    <None Include="admincp\font-awesome\scss\_fixed-width.scss" />
+    <None Include="admincp\font-awesome\scss\_icons.scss" />
+    <None Include="admincp\font-awesome\scss\_larger.scss" />
+    <None Include="admincp\font-awesome\scss\_list.scss" />
+    <None Include="admincp\font-awesome\scss\_mixins.scss" />
+    <None Include="admincp\font-awesome\scss\_path.scss" />
+    <None Include="admincp\font-awesome\scss\_rotated-flipped.scss" />
+    <None Include="admincp\font-awesome\scss\_spinning.scss" />
+    <None Include="admincp\font-awesome\scss\_stacked.scss" />
+    <None Include="admincp\font-awesome\scss\_variables.scss" />
+    <None Include="admincp\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="admincp\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="admincp\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="admincp\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="admincp\js\html5shiv.cache" />
+    <None Include="admincp\js\respond.min.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>8934</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
